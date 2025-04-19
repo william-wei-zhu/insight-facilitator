@@ -1,0 +1,60 @@
+/* Title text */
+.title-text {
+    font-size: 2.0rem !important;
+    letter-spacing: -0.02em !important;
+    font-family: 'Playfair Display', serif !important;
+}
+
+/* Subtitle text - slightly smaller as requested */
+.subtitle-text {
+    font-size: 1.1rem !important;
+    font-weight: 400 !important;
+    line-height: 1.5 !important;
+}
+
+/* Input field - much larger for better visibility with border - with more specificity */
+#search-bar,
+#search-bar textarea,
+#search-bar input,
+.gradio-container .input-field,
+#component-0 .input-field,
+.gradio-textbox .input-field,
+input.input-field {
+    font-size: 1.2rem !important;
+    height: 4.4rem !important;
+    padding: 0.2rem !important;
+    border: 2px solid var(--border-color-primary) !important;
+    border-radius: 8px !important;
+    box-shadow: none !important;
+}
+
+/* Brighter placeholder text */
+#search-bar::placeholder,
+.input-field::placeholder {
+    color: rgba(255, 255, 255, 0.8) !important;
+    opacity: 1 !important;
+}
+
+/* Output text - larger for elderly readers */
+.output-text,
+.output-text textarea,
+.gradio-container .output-text,
+#component-10 .output-text,
+.gradio-textbox.output-text,
+textarea.output-text,
+.gradio-container textarea.output-text {
+    font-size: 1.3rem !important;
+    line-height: 1.6 !important;
+    color: inherit !important;
+}
+
+/* Section headings */
+.section-heading {
+    font-size: 1.3rem !important;
+    margin-bottom: 1rem !important;
+}
+
+/* Footer text */
+.footer-text {
+    font-size: 0.9rem !important;
+}
