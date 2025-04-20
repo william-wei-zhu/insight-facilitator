@@ -1,10 +1,8 @@
 crewai @ git+https://github.com/crewAIInc/crewAI.git@0.108.0
 crewai-tools
 python-dotenv>=1.0.0
-boto3>=1.28.0
-gradio>=5.25.0
+gradio==5.25.2
 beautifulsoup4>=4.12.0
 requests>=2.30.0
 markdown>=3.4.0
 openai>=1.6.0
-sqlalchemy>=2.0.0

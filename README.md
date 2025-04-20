@@ -15,7 +15,7 @@ Check out the configuration reference at https://huggingface.co/docs/hub/spaces-
 
 # Insight Facilitator
 
-Insight Facilitator generates profound insights and thought-provoking discussion questions for any book or movie. Powered by OpenAI GPT-4o with AWS Bedrock as a backup option, it uses a system of autonomous AI agents working together to deliver a comprehensive analysis.
+Insight Facilitator generates profound insights and thought-provoking discussion questions for any book or movie. Powered by OpenAI GPT-4o, it uses a streamlined system of autonomous AI agents to deliver a focused analysis tailored to the specific media type.
 
 ## How It Works
 
@@ -23,33 +23,31 @@ Insight Facilitator uses three specialized AI agents working in sequence:
 
 1. **Information Gatherer**: Researches the book or movie, finding plot details, themes, character information, and critical reception
 
-2. **Insight Analyst**: Analyzes the research to generate 8 profound insights about themes, character development, artistic techniques, and deeper meanings
+2. **Insight Analyst**: Analyzes the research to generate insights about themes, character development, artistic techniques, and deeper meanings
 
-3. **Discussion Facilitator**: Creates 8 thought-provoking discussion questions perfect for book clubs, film discussions, or personal reflection
+3. **Discussion Facilitator**: Creates thought-provoking discussion questions perfect for book clubs, film discussions, or personal reflection
 
 ## Features
 
 - **Deep Analysis**: Goes beyond surface-level summaries to provide meaningful insights
 - **Discussion Ready**: Creates questions that spark engaging conversations
-- **Flexible Engine**: Choose between OpenAI GPT-4o (recommended) or AWS Bedrock Claude 3 Haiku
-- **Minimalist Interface**: Apple-inspired clean design with elegant typography and focused input areas
+- **OpenAI Powered**: Utilizes GPT-4o for comprehensive analysis
+- **Streamlined Interface**: Clean design with focused input areas
 
 ## Usage
 
 1. Enter any book or movie title
 2. Select the media type (Book or Movie)
 3. Click "Generate Insights & Discussion Questions"
-4. Receive 8 profound insights and 8 thought-provoking discussion questions
+4. Receive insights and discussion questions
 
 **Note**: Analysis takes 2-3 minutes to complete.
 
 ## API Keys Required
 
-This application requires API keys to function. You'll need to add these as secrets in your Hugging Face Space:
+This application requires an API key to function. You'll need to add this as a secret in your Hugging Face Space:
 
 - `OPENAI_API_KEY` - Required for OpenAI GPT-4o
-- `AWS_ACCESS_KEY_ID`, `AWS_SECRET_ACCESS_KEY`, `AWS_REGION_NAME` - Required for AWS Bedrock (optional backup)
-- `SERPER_API_KEY` - For enhanced web search capabilities (optional)
 
 ## About
 
